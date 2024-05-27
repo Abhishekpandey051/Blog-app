@@ -1,11 +1,13 @@
+import Navbar from "./Navbar"
 
-
-const Body = () => {
+function Body() {
+    
     return (
-        <div>
-        gjkjkj    
-        </div>
-    );
+        <>
+        <Navbar/>
+        <h1>Body component</h1>
+        </>
+    )
 }
 
-export default Body;
+export default Body

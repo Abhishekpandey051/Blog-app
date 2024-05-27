@@ -1,5 +1,6 @@
-import Register from "./Page/Account/Register"
-import Navbar from "./Page/Navbar"
+
+import AppRouter from "./router/AppRouter"
+
 
 
 function App() {
@@ -7,8 +8,7 @@ function App() {
 
   return (
     <>
-    <Navbar/>
-    <Register/>
+    <AppRouter/>
     </>
   )
 }
